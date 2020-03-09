@@ -17,5 +17,6 @@ export default new Router({
       name: 'resume',
       component: resume
     }
-  ]
+  ],
+  mode:'history'
 })

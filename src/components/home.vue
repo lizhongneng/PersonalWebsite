@@ -3,7 +3,7 @@
     <div class="container">
       <!-- 个人简历 -->
       <div class="card">
-        <router-link to="/resume">
+        <router-link to="resume">
           <div class="in">
             <div>
               <h2>热爱前端</h2>
@@ -19,7 +19,7 @@
       </div>
       <!-- 学习笔记 -->
       <div class="card">
-        <router-link to="/resume">
+        <router-link to="">
           <div class="in">
             <div>
               <h2>学习笔记</h2>
@@ -33,7 +33,7 @@
       </div>
       <!-- 生活趣事 -->
       <div class="card">
-        <router-link to="/resume">
+        <router-link to="">
           <div class="in">
             <div>
               <h2>旅游日志</h2>
@@ -49,7 +49,8 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+};
 </script>
 <style lang="less" scoped>
 .home {
@@ -64,9 +65,11 @@ export default {};
 }
 .container {
   display: grid;
+  width: 100%;
   justify-content: center;
   align-content: center;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+//   grid-row: repeat(3, 50px);
   grid-gap: 100px;
   .card {
     position: relative;

@@ -20,9 +20,10 @@
 </template>
 
 <script>
+import $ from 'jquery'
 require("../js/jquery.fullPage.min.js");
 export default {
-  name: "HelloWorld",
+  name: "resume",
   data() {
     return {
     
@@ -31,7 +32,7 @@ export default {
   mounted() {
     $("#dowebok").fullpage({
       sectionsColor: ["#1bbc9b", "#4BBFC3", "#7BAABE", "#f90"],
-      navigation: true
+      // navigation: true
     });
   }
 };
