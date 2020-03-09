@@ -20,7 +20,6 @@
 </template>
 
 <script>
-import $ from 'jquery'
 require("../js/jquery.fullPage.min.js");
 export default {
   name: "resume",

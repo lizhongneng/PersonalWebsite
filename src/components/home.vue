@@ -3,7 +3,7 @@
     <div class="container">
       <!-- 个人简历 -->
       <div class="card">
-        <router-link to="resume">
+        <router-link to="/resume">
           <div class="in">
             <div>
               <h2>热爱前端</h2>
