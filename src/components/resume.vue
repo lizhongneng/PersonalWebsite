@@ -1,47 +1,45 @@
 <template>
-  <div id="dowebok">
-    <div class="section">
-      <h3>第一屏</h3>
-      <p>明天再搞</p>
-    </div>
-    <div class="section">
-      <h3>第二屏</h3>
-      <p>后天搞</p>
-    </div>
-    <div class="section">
-      <h3>第三屏</h3>
-      <p>大后天搞</p>
-    </div>
-    <div class="section">
-      <h3>第四屏</h3>
-      <p>慢慢搞</p>
-    </div>
+  <div id="resume">
+    <full-page ref="fullpage" :options="options" id="fullpage" :skip-init="true">
+      <div class="section">第一页</div>
+      <div class="section">第二页</div>
+      <div class="section">第三页</div>
+    </full-page>
   </div>
 </template>
 
 <script>
-require("../js/jquery.fullPage.min.js");
 export default {
   name: "resume",
   data() {
     return {
-    
+      options: {
+        licenseKey: "YOUR_KEY_HERE",
+        navigation: true,
+        navigationPosition: "right",
+        // navigationTooltips:['page1','page2','page3'],
+        // navigationColor: '#FFF',
+        anchors: ["page1", "page2", "page3"],
+        sectionsColor: ["#41b883", "#ff5f45", "#0798ec"]
+      }
     };
   },
   mounted() {
-    $("#dowebok").fullpage({
-      sectionsColor: ["#1bbc9b", "#4BBFC3", "#7BAABE", "#f90"],
-      // navigation: true
-    });
+    this.componentsReady();
+  },
+  methods: {
+    componentsReady() {
+      this.$refs.fullpage.init();
+    }
   }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scope>
-@import "../css/jquery.fullPage.css";
+@import 'https://unpkg.com/fullpage.js/dist/fullpage.min.css';
 .section {
-  text-align: center;
+  // align-items: center;
   font: 50px "Microsoft Yahei";
   color: #fff;
 }
