@@ -19,6 +19,8 @@ export default {
         navigationPosition: "right",
         // navigationTooltips:['page1','page2','page3'],
         // navigationColor: '#FFF',
+        verticalCentered: true,
+        resize: true,
         anchors: ["page1", "page2", "page3"],
         sectionsColor: ["#41b883", "#ff5f45", "#0798ec"]
       }
@@ -39,7 +41,7 @@ export default {
 <style lang="less" scope>
 @import 'https://unpkg.com/fullpage.js/dist/fullpage.min.css';
 .section {
-  // align-items: center;
+  align-items: center;
   font: 50px "Microsoft Yahei";
   color: #fff;
 }
