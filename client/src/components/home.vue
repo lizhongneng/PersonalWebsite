@@ -12,14 +12,14 @@
               <p>技术栈：Vue、JQuery、H5、CSS3、Node.js、微信小程序等</p>
             </div>
           </div>
-          <div class="face out">
-            <h2>个人简历</h2>
-          </div>
         </router-link>
+        <div class="face out">
+          <h2>个人简历</h2>
+        </div>
       </div>
       <!-- 学习笔记 -->
       <div class="card">
-        <router-link to="">
+        <router-link to>
           <div class="in">
             <div>
               <h2>学习笔记</h2>
@@ -33,7 +33,7 @@
       </div>
       <!-- 生活趣事 -->
       <div class="card">
-        <router-link to="">
+        <router-link to>
           <div class="in">
             <div>
               <h2>旅游日志</h2>
@@ -50,8 +50,7 @@
 </template>
 <script>
 export default {
-  mounted(){
-  }
+  mounted() {}
 };
 </script>
 <style lang="less" scoped>
