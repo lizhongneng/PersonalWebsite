@@ -71,13 +71,13 @@ export default {
   justify-content: center;
   align-content: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-//   grid-row: repeat(3, 50px);
+  // grid-row: repeat(3, 50px);
   grid-gap: 100px;
   .card {
     position: relative;
     width: 300px;
     height: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
     background: #fff;
     -webkit-box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);

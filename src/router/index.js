@@ -18,5 +18,5 @@ export default new Router({
       component: resume
     }
   ],
-  mode:'history'
+  mode:'hash'
 })
