@@ -12,6 +12,7 @@
               >
                 {{item1!==list[1][0] ? item1!==list[1][1]? item1: '' : list[1][0]}}
                 <el-link
+                  class="link"
                   :key="index1"
                   :underline="false"
                   v-if="item1===list[1][1]"
@@ -87,13 +88,22 @@ export default {
   color: #fff;
   .margin {
     margin: 21.44px 40px;
-    /deep/ .el-link--default {
-      color: #fff !important;
-      font-weight: normal !important;
-      font-size: 16px !important;
-      vertical-align: top !important;
+    // /deep/ .el-link--default {
+    //   color: #fff !important;
+    //   font-weight: normal !important;
+    //   font-size: 16px !important;
+    //   vertical-align: top !important;
+    //   :hover {
+    //     color: #606266 !important;
+    //   }
+    // }
+    .link {
+      color: #fff;
+      font-weight: normal;
+      font-size: 16px;
+      vertical-align: top;
       :hover {
-        color: #606266 !important;
+        color: #606266;
       }
     }
   }
