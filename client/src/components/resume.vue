@@ -88,12 +88,12 @@ export default {
   .margin {
     margin: 21.44px 40px;
     /deep/ .el-link--default {
-      color: #fff;
-      font-weight: normal;
-      font-size: 16px;
-      vertical-align: top;
+      color: #fff !important;
+      font-weight: normal !important;
+      font-size: 16px !important;
+      vertical-align: top !important;
       :hover {
-        color: #606266;
+        color: #606266 !important;
       }
     }
   }
