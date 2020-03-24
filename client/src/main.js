@@ -3,9 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Element from 'element-ui';
 import VueFullPage from 'vue-fullpage.js'
 
 Vue.config.productionTip = false
+Vue.use(Element);
 Vue.use(VueFullPage);
 
 /* eslint-disable no-new */
