@@ -39,7 +39,7 @@
         <el-carousel :interval="6000" type="card" height="300px" class="carousel project1">
           <el-carousel-item v-for="(item,index) in carousellist" :key="index" class="item">
             <div class="item">
-              <el-row v-for="(item1, index1) in item" :key="index1">
+              <el-row v-for="(item1, index1) in item" :key="index1" class="row-align">
                 <el-col :span="4">
                   <div>{{item1.name}}</div>
                 </el-col>
@@ -198,7 +198,7 @@ export default {
     // align-items: center;
     margin: auto 20px;
   }
-  /deep/ .el-row {
+  .row-align {
     text-align: left;
     margin: 10px 5px;
     div {
