@@ -36,12 +36,7 @@
       </div>
       <div class="section">
         <h1 class="page-title">主要项目</h1>
-        <el-carousel
-          :interval="6000"
-          type="card"
-          height="300px"
-          class="carousel project1"
-        >
+        <el-carousel :interval="6000" type="card" height="300px" class="carousel project1">
           <el-carousel-item v-for="(item,index) in carousellist" :key="index" class="item">
             <div class="item">
               <el-row v-for="(item1, index1) in item" :key="index1">
@@ -163,12 +158,14 @@ export default {
   color: #fff;
   h1 {
     transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     top: 150px;
     position: relative;
     opacity: 0;
   }
   .margin {
     transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     top: 150px;
     position: relative;
     opacity: 0;
@@ -188,6 +185,7 @@ export default {
   width: 80%;
   margin: 50px auto;
   transition: all 0.5s;
+  -webkit-transition: all 0.5s;
   opacity: 0;
   top: 150px;
   .el-carousel__item {
@@ -223,6 +221,7 @@ export default {
 
 .project {
   transition: all 0.5s;
+  -webkit-transition: all 0.5s;
   top: 150px;
   position: relative;
   opacity: 0;
@@ -261,25 +260,45 @@ export default {
   animation: fade-in ease 1.3s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
+  /* Safari */
+  -webkit-animation: fade-in ease 1.3s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
 }
 .active .project1 {
   animation: fade-in ease 1.3s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+    /* Safari */
+  -webkit-animation: fade-in ease 1.3s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
 }
 .active .project2 {
   animation: fade-in ease 1.3s;
   animation-delay: 1.5s;
   animation-fill-mode: forwards;
+    /* Safari */
+  -webkit-animation: fade-in ease 1.3s;
+  -webkit-animation-delay: 1.5s;
+  -webkit-animation-fill-mode: forwards;
 }
 .active .project3 {
   animation: fade-in ease 1.3s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
+    /* Safari */
+  -webkit-animation: fade-in ease 1.3s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
 }
 .active .project4 {
   animation: fade-in ease 1.3s;
   animation-delay: 2.5s;
   animation-fill-mode: forwards;
+    /* Safari */
+  -webkit-animation: fade-in ease 1.3s;
+  -webkit-animation-delay: 2.5s;
+  -webkit-animation-fill-mode: forwards;
 }
 </style>

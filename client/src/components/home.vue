@@ -7,8 +7,7 @@
           <div class="in">
             <div>
               <h2>热爱前端</h2>
-              <p>喜欢写漂亮的CS3动画</p>
-              <p>分享学习心得</p>
+              <p>自学前端技术</p>
               <p>技术栈：Vue、JavaSrcipt、H5、CSS3、Node.js、微信小程序等</p>
             </div>
           </div>
