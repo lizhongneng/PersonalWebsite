@@ -18,7 +18,7 @@
       </div>
       <!-- 学习笔记 -->
       <div class="card">
-        <router-link to>
+        <router-link to="/knowledge">
           <div class="in">
             <div>
               <h2>学习笔记</h2>
