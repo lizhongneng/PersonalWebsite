@@ -231,6 +231,7 @@ export default {
   margin: 10px 0;
   padding: 10px 20px;
   text-align: left;
+  -webkit-text-align: left;
   border-radius: 10px;
   margin: 50px auto;
 }
@@ -240,6 +241,16 @@ export default {
 }
 
 @keyframes fade-in {
+  0% {
+    opacity: 0;
+    top: 150px;
+  } /*初始状态 透明度为0*/
+  100% {
+    opacity: 1;
+    top: 0;
+  } /*结束状态 透明度为1*/
+}
+@-webkit-keyframes fade-in {
   0% {
     opacity: 0;
     top: 150px;
