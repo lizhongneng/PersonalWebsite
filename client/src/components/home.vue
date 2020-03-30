@@ -25,10 +25,10 @@
               <p>工作日常总结的代码笔记</p>
             </div>
           </div>
-          <div class="face out">
-            <h2>学习笔记</h2>
-          </div>
         </router-link>
+        <div class="face out">
+          <h2>学习笔记</h2>
+        </div>
       </div>
       <!-- 生活趣事 -->
       <div class="card">
@@ -39,10 +39,10 @@
               <p>记录每年旅游的点滴</p>
             </div>
           </div>
-          <div class="face out">
-            <h2>旅游日志</h2>
-          </div>
         </router-link>
+        <div class="face out">
+          <h2>旅游日志</h2>
+        </div>
       </div>
     </div>
   </div>
