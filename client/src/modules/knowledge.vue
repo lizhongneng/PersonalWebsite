@@ -1,37 +1,28 @@
 <template>
   <el-container class="flex">
-    <el-header>Header</el-header>
+    <v-aside></v-aside>
     <el-container class="middle">
-      <el-aside width="200px">Aside</el-aside>
+      <v-header></v-header>
       <el-main>Main</el-main>
+      <v-footer>Footer</v-footer>
     </el-container>
-    <el-footer>Footer</el-footer>
   </el-container>
 </template>
 <script>
+import vHeader from "@/layout/header/header.vue";
+import vAside from '@/layout/aside/aside.vue'
+import vFooter from '@/layout/footer/footer.vue'
 export default {
+  components: { vHeader, vAside, vFooter },
   data() {
     return {};
   }
 };
 </script>
 <style lang="less" scoped>
-.el-header,
-.el-footer {
-  background-color: #b3c0d1;
-  color: #333;
-  text-align: center;
-  line-height: 60px;
-  height: 60px;
+.div {
+  height: 100%;
 }
-
-.el-aside {
-  background-color: #d3dce6;
-  color: #333;
-  align-items: center;
-  justify-content: center;
-}
-
 .el-main {
   display: flex;
   flex: 1;
@@ -41,14 +32,17 @@ export default {
   height: 100%;
   align-items: center;
   justify-content: center;
+  border-top: solid 1px #e6e6e6;
+  border-bottom: solid 1px #e6e6e6;
 }
 .flex {
   display: flex;
   height: 100%;
-  flex-direction: column;
+  // flex-direction: column;
 }
 .middle {
   display: flex;
   flex: 1;
+  flex-direction: column;
 }
 </style>

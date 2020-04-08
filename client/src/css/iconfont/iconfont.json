@@ -6,11 +6,39 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1301366",
+      "name": "名片",
+      "font_class": "mingpian",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
       "icon_id": "1546609",
       "name": "邮箱",
       "font_class": "youxiang",
       "unicode": "e69d",
       "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "6883114",
+      "name": "中英文",
+      "font_class": "zhongyingwen",
+      "unicode": "e7a3",
+      "unicode_decimal": 59299
+    },
+    {
+      "icon_id": "7578846",
+      "name": "用户",
+      "font_class": "denglu1",
+      "unicode": "e7d8",
+      "unicode_decimal": 59352
+    },
+    {
+      "icon_id": "8229473",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e612",
+      "unicode_decimal": 58898
     },
     {
       "icon_id": "11391520",

@@ -150,8 +150,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scope>
 @import "https://unpkg.com/fullpage.js/dist/fullpage.min.css";
-@import "../css/iconfont/iconfont.css";
-@import url("//unpkg.com/element-ui@2.13.0/lib/theme-chalk/index.css");
 .section {
   font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", "微软雅黑", Arial, sans-serif;

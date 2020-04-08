@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import resume from '@/components/resume'
-import home from '@/components/home'
-import knowledge from '@/components/knowledge'
+import resume from '@/modules/resume'
+import home from '@/modules/home'
+import knowledge from '@/modules/knowledge'
 
 Vue.use(Router)
 
