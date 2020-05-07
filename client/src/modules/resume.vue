@@ -154,6 +154,7 @@ export default {
   font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
   color: #fff;
+  text-align: center;
   h1 {
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -278,7 +279,7 @@ export default {
   animation: fade-in ease 1.3s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
-    /* Safari */
+  /* Safari */
   -webkit-animation: fade-in ease 1.3s;
   -webkit-animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
@@ -287,7 +288,7 @@ export default {
   animation: fade-in ease 1.3s;
   animation-delay: 1.5s;
   animation-fill-mode: forwards;
-    /* Safari */
+  /* Safari */
   -webkit-animation: fade-in ease 1.3s;
   -webkit-animation-delay: 1.5s;
   -webkit-animation-fill-mode: forwards;
@@ -296,7 +297,7 @@ export default {
   animation: fade-in ease 1.3s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
-    /* Safari */
+  /* Safari */
   -webkit-animation: fade-in ease 1.3s;
   -webkit-animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
@@ -305,7 +306,7 @@ export default {
   animation: fade-in ease 1.3s;
   animation-delay: 2.5s;
   animation-fill-mode: forwards;
-    /* Safari */
+  /* Safari */
   -webkit-animation: fade-in ease 1.3s;
   -webkit-animation-delay: 2.5s;
   -webkit-animation-fill-mode: forwards;

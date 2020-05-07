@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1117122",
+      "name": "server",
+      "font_class": "server",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
       "icon_id": "1301366",
       "name": "名片",
       "font_class": "mingpian",
@@ -18,6 +25,20 @@
       "font_class": "youxiang",
       "unicode": "e69d",
       "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "5777538",
+      "name": "客户端管理",
+      "font_class": "kehuduan",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "6290224",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
     },
     {
       "icon_id": "6883114",

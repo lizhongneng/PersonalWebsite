@@ -57,6 +57,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   -webkit-box-align: center;
   -webkit-box-pack: center;
   min-height: 100vh;

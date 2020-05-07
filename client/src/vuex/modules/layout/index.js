@@ -1,6 +1,8 @@
 export default {
     state: {
         isCollapse: false,
+        avatarUrl: require("@/assets/logo.jpeg"),
+        userName:"小黎"
     },
     mutations: {
         collapse(state, arg) {

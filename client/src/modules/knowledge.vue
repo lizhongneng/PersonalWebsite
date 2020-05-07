@@ -10,8 +10,8 @@
 </template>
 <script>
 import vHeader from "@/layout/header/header.vue";
-import vAside from '@/layout/aside/aside.vue'
-import vFooter from '@/layout/footer/footer.vue'
+import vAside from "@/layout/aside/aside.vue";
+import vFooter from "@/layout/footer/footer.vue";
 export default {
   components: { vHeader, vAside, vFooter },
   data() {
